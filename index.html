@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <button id="tasks" class="button__tasks" onclick="tasks();"></button>
+    <ul id="myList">
+        <h2>Fetch List</h2>
+    </ul>
+    
+    <div id="gifs">
+        <form class="form" onsubmit="return false;">
+            <h2>Find Gifs</h2>
+            <input id="input" type="text">
+            <button id="search" class="button__search" onclick="findGif();">Find gif!</button>
+        </form>
+        <div id="images">
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
